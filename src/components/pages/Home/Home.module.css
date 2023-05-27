@@ -1,0 +1,38 @@
+.hero {
+    background-image: url('../../common/FlyingHorse/horse.svg');
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: right -30%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.titleContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--black);
+    margin-bottom: 50px;
+    font-family: var(--font-secondary);
+    line-height: 3rem;
+}
+
+@media (max-width: 575px) {
+    .title {
+        margin-top: 140px;
+    }
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--black);
+    max-width: 700px;
+    margin-bottom: 30px;
+}
